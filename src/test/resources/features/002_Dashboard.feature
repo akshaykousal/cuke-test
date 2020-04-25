@@ -4,5 +4,6 @@ Feature: Verify Dashboard Page Module
     Given User launches application
     When User enters default username and default password
     And User clicks Login Button
-    Then User is on Dashboard page
+    Then User should login into application
+    And User is on Dashboard page
     And User closes application

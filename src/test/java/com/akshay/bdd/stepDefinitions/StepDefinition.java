@@ -4,6 +4,7 @@ import com.akshay.bdd.pages.DashboardPage;
 import com.akshay.bdd.pages.LoginPage;
 import com.akshay.bdd.utils.ConfigManager;
 import com.akshay.bdd.utils.WebDriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
@@ -23,6 +24,7 @@ public class StepDefinition {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            Assert.fail("Fail to load webdriver");
         }
     }
 

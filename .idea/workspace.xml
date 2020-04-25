@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf35891c-12ce-45fa-99da-d66b2ae4a694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/LoginPageStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/001_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,61 +24,27 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/LoginPageStepDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-              </folding>
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/DashboardPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configuration/Config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="391">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,11 +79,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/loginModule/Login.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/ConfigManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/AksTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/configuration/Config.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/features/dashboard/Dashboard.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" />
@@ -140,8 +88,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/akshay/bdd/runner/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configuration/Config.properties" />
       </list>
     </option>
   </component>
@@ -317,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587303172382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587825910945" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -346,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: 002_Dashboard">
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify Dashboard Page loads by default on Successful Login">
     <configuration name="AksTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AksTest" />
       <module name="cucumber" />
@@ -426,8 +377,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: 002_Dashboard" />
         <item itemvalue="Cucumber java.Scenario: Verify Dashboard Page loads by default on Successful Login" />
+        <item itemvalue="Cucumber java.Feature: 002_Dashboard" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber java.Scenario: Verify Application Login" />
         <item itemvalue="Application.AksTest" />
@@ -448,41 +399,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2020.04.19 at 17h 19m 22s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2020.04.19 at 17h 21m 15s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 36m 33s.xml">
-      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 37m 45s.xml">
-      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 39m 15s.xml">
-      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__002_Dashboard - 2020.04.19 at 17h 41m 17s.xml">
-      <configuration name="Feature: 002_Dashboard" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 49m 26s.xml">
-      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 51m 52s.xml">
-      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.19 at 17h 53m 52s.xml">
       <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__002_Dashboard - 2020.04.19 at 17h 55m 29s.xml">
       <configuration name="Feature: 002_Dashboard" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__002_Dashboard - 2020.04.25 at 19h 40m 43s.xml">
+      <configuration name="Feature: 002_Dashboard" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 04m 25s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 05m 33s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 06m 07s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 06m 37s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 08m 43s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 09m 25s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Verify_Dashboard_Page_loads_by_default_on_Successful_Login - 2020.04.25 at 20h 10m 01s.xml">
+      <configuration name="Scenario: Verify Dashboard Page loads by default on Successful Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,12 +443,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25777778" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36555555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30888888" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -518,6 +470,12 @@
           <line>16</line>
           <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -561,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar!/org/openqa/selenium/ie/InternetExplorerOptions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -589,73 +540,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="34" column="35" selection-start-line="24" selection-start-column="8" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/akshay/bdd/stepDefinitions/LoginPageStepDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#2020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/akshay/bdd/pages/DashboardPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <folding>
-            <element signature="e#0#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/dashboard/Dashboard.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration/Config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AksTest.java" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/akshay/bdd/stepDefinitions/LoginPageStepDefinition.class" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/akshay/bdd/pages/DashboardPage.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/dashboard/Dashboard.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/Login.feature" />
+    <entry file="file://$PROJECT_DIR$/target/report/index.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/runner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -666,34 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/001_Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Timeout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -747,24 +610,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/001_Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/LoginPageStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="174">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
             <element signature="e#990#991#0" expanded="true" />
           </folding>
         </state>
@@ -772,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/StepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="223">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -783,31 +697,24 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/002_Dashboard.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akshay/bdd/stepDefinitions/DashboardPageStepDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/utils/WebDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="391">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akshay/bdd/pages/DashboardPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="20">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
         </state>
       </provider>
     </entry>
