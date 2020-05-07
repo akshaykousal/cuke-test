@@ -1,5 +1,7 @@
 package com.akshay.bdd.utils;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -7,138 +9,146 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
 public class WebDriverListener implements WebDriverEventListener {
+
+    private static Logger logger;
+
+    WebDriverListener(){
+        logger = Logger.getLogger(WebDriverListener.class);
+        PropertyConfigurator.configure("log4j.properties");
+    }
+
     @Override
     public void beforeAlertAccept(WebDriver webDriver) {
-        System.out.println("beforeAlertAccept");
+        logger.debug("beforeAlertAccept");
     }
 
     @Override
     public void afterAlertAccept(WebDriver webDriver) {
-        System.out.println("afterAlertAccept");
+        logger.debug("afterAlertAccept");
     }
 
     @Override
     public void afterAlertDismiss(WebDriver webDriver) {
-        System.out.println("afterAlertDismiss");
+        logger.debug("afterAlertDismiss");
     }
 
     @Override
     public void beforeAlertDismiss(WebDriver webDriver) {
-        System.out.println("beforeAlertDismiss");
+        logger.debug("beforeAlertDismiss");
     }
 
     @Override
     public void beforeNavigateTo(String s, WebDriver webDriver) {
-        System.out.println("beforeNavigateTo");
+        logger.debug("beforeNavigateTo");
     }
 
     @Override
     public void afterNavigateTo(String s, WebDriver webDriver) {
-        System.out.println("afterNavigateTo");
+        logger.debug("afterNavigateTo");
     }
 
     @Override
     public void beforeNavigateBack(WebDriver webDriver) {
-        System.out.println("beforeNavigateBack");
+        logger.debug("beforeNavigateBack");
     }
 
     @Override
     public void afterNavigateBack(WebDriver webDriver) {
-        System.out.println("afterNavigateBack");
+        logger.debug("afterNavigateBack");
     }
 
     @Override
     public void beforeNavigateForward(WebDriver webDriver) {
-        System.out.println("beforeNavigateForward");
+        logger.debug("beforeNavigateForward");
     }
 
     @Override
     public void afterNavigateForward(WebDriver webDriver) {
-        System.out.println("afterNavigateForward");
+        logger.debug("afterNavigateForward");
     }
 
     @Override
     public void beforeNavigateRefresh(WebDriver webDriver) {
-        System.out.println("beforeNavigateRefresh");
+        logger.debug("beforeNavigateRefresh");
     }
 
     @Override
     public void afterNavigateRefresh(WebDriver webDriver) {
-        System.out.println("afterNavigateRefresh");
+        logger.debug("afterNavigateRefresh");
     }
 
     @Override
     public void beforeFindBy(By by, WebElement webElement, WebDriver webDriver) {
-        System.out.println("beforeFindBy");
+        logger.debug("beforeFindBy");
     }
 
     @Override
     public void afterFindBy(By by, WebElement webElement, WebDriver webDriver) {
-        System.out.println("afterFindBy");
+        logger.debug("afterFindBy");
     }
 
     @Override
     public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
-        System.out.println("beforeClickOn");
+        logger.debug("beforeClickOn");
     }
 
     @Override
     public void afterClickOn(WebElement webElement, WebDriver webDriver) {
-        System.out.println("afterClickOn");
+        logger.debug("afterClickOn");
     }
 
     @Override
     public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-        System.out.println("beforeChangeValueOf");
+        logger.debug("beforeChangeValueOf");
     }
 
     @Override
     public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-        System.out.println("afterChangeValueOf");
+        logger.debug("afterChangeValueOf");
     }
 
     @Override
     public void beforeScript(String s, WebDriver webDriver) {
-        System.out.println("beforeScript");
+        logger.debug("beforeScript");
     }
 
     @Override
     public void afterScript(String s, WebDriver webDriver) {
-        System.out.println("afterScript");
+        logger.debug("afterScript");
     }
 
     @Override
     public void beforeSwitchToWindow(String s, WebDriver webDriver) {
-        System.out.println("beforeSwitchToWindow");
+        logger.debug("beforeSwitchToWindow");
     }
 
     @Override
     public void afterSwitchToWindow(String s, WebDriver webDriver) {
-        System.out.println("afterSwitchToWindow");
+        logger.debug("afterSwitchToWindow");
     }
 
     @Override
     public void onException(Throwable throwable, WebDriver webDriver) {
-        System.out.println("onException");
+        logger.debug("onException");
     }
 
     @Override
     public <X> void beforeGetScreenshotAs(OutputType<X> outputType) {
-        System.out.println("beforeGetScreenshotAs");
+        logger.debug("beforeGetScreenshotAs");
     }
 
     @Override
     public <X> void afterGetScreenshotAs(OutputType<X> outputType, X x) {
-        System.out.println("afterGetScreenshotAs");
+        logger.debug("afterGetScreenshotAs");
     }
 
     @Override
     public void beforeGetText(WebElement webElement, WebDriver webDriver) {
-        System.out.println("beforeGetText");
+        logger.debug("beforeGetText");
     }
 
     @Override
     public void afterGetText(WebElement webElement, WebDriver webDriver, String s) {
-        System.out.println("afterGetText");
+        logger.debug("afterGetText");
     }
 }

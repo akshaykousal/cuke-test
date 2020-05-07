@@ -1,14 +1,28 @@
 package com.akshay.bdd.stepDefinitions;
 
 import com.akshay.bdd.pages.LoginPage;
+import com.akshay.bdd.utils.WebDriverManager;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.NoSuchSessionException;
 
 import java.io.IOException;
 
 public class LoginPageStepDefinition extends StepDefinition {
+
+    @Before
+    public void beforeEachScenario() {
+        System.out.println("Before Hook\n");
+    }
+
+    @After
+    public void afterEachScenario() {
+        System.out.println("After Hook\n");
+    }
 
     public LoginPageStepDefinition() {
         loginPage = new LoginPage(driver);
@@ -16,7 +30,15 @@ public class LoginPageStepDefinition extends StepDefinition {
 
     @Given("^User launches application$")
     public void user_launches_application() throws IOException {
-        driver.get(configManager.getProperty("url"));
+        try {
+            StepDefinition.driver.get(configManager.getProperty("url"));
+        } catch (NoSuchSessionException e) {
+            StepDefinition.driver = null;
+            WebDriverManager driverManager = new WebDriverManager();
+            StepDefinition.driver = driverManager.getDriver();
+            loginPage = new LoginPage(driver);
+            StepDefinition.driver.get(configManager.getProperty("url"));
+        }
     }
 
     @When("^User enters default username and default password$")
