@@ -2,6 +2,7 @@ package com.akshay.bdd.stepDefinitions;
 
 import com.akshay.bdd.pages.LoginPage;
 import com.akshay.bdd.utils.WebDriverManager;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
@@ -11,17 +12,21 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchSessionException;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 public class LoginPageStepDefinition extends StepDefinition {
 
     @Before
-    public void beforeEachScenario() {
-        System.out.println("Before Hook\n");
+    public void beforeEachScenario(Scenario scenario) {
+        this.scenario = scenario;
+        System.out.println("Execution started for Scenario : " + scenario.getName() + ". Start Time : " + dtf.format(LocalDateTime.now()) + "\n");
+        logger.info("Execution started for Scenario : " + scenario.getName() + ". Start Time : " + dtf.format(LocalDateTime.now()) + "\n");
     }
 
     @After
     public void afterEachScenario() {
-        System.out.println("After Hook\n");
+        System.out.println("Execution completed for Scenario : " + scenario.getName() + ". End Time : " + dtf.format(LocalDateTime.now()) + "\n");
+        logger.info("Execution completed for Scenario : " + scenario.getName() + ". End Time : " + dtf.format(LocalDateTime.now()) + "\n");
     }
 
     public LoginPageStepDefinition() {

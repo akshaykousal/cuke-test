@@ -12,7 +12,7 @@ public class WebDriverListener implements WebDriverEventListener {
 
     private static Logger logger;
 
-    WebDriverListener(){
+    static {
         logger = Logger.getLogger(WebDriverListener.class);
         PropertyConfigurator.configure("log4j.properties");
     }
